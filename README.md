@@ -30,8 +30,6 @@ Este componente web personalizado `<weather-widget>` muestra el clima actual de 
 
 ## 📸 Capturas de pantalla del componente en uso
 
-> 💡 Agrega aquí tus capturas de pantalla. Puedes usar esta estructura:
-
 ### Estado inicial
 
 ![Captura 1 - Estado inicial](docs/no_desplegado.png)
@@ -52,3 +50,7 @@ Este componente web personalizado `<weather-widget>` muestra el clima actual de 
 
 ```html
 <script type="module" src="weather-widget.js"></script> 
+
+<weather-widget city="Quito" bg-color="#efefef">
+  <span slot="title">Clima en Quito</span>
+</weather-widget>
